@@ -1,0 +1,395 @@
+<!--
+    
+    INFORMACION RELEVANTE
+    - AUTOR: MIGUEL QUINTANA VALENZUELA.
+    - ASIGNATURA: DESARROLLO DE INTERFACES WEB.
+    - INSTITUCIÓN: UNIVERSIDAD DEL BÍO BÍO, CHILLÁN.
+    
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TIW - Trabajo Evaluado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <div class="container">
+            <a href="#" class="navbar-brand"><span class="text-success">ÑUBLE</span>VERDE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarS"
+                aria-controls="#navbarS" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Lugares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Visitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="img/home-1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Termas de Chillán</h5>
+                    <p>Es un complejo turístico ubicado en la comuna de Pinto, en la Región de Ñuble, Chile, cual es
+                        administrado por la Municipalidad de Chillán, ciudad ubicada a 82 km al poniente. Está ubicada
+                        en las faldas del complejo volcánico Nevados de Chillán, en el sector de Valle Hermoso</p>
+                    <a href="#" class="btn btn-success mt-3">Mas informacion</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/home-2.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Las Turbinas</h5>
+                    <p>Cascada las turbinas, se encuentra a solo 25 minutos del puente de concreto (Renegado), desde el
+                        puente se inicia la caminata donde se emprende con un hermoso sendero para encontrar el río y
+                        por ende el salto las turbinas.</p>
+                    <a href="#" class="btn btn-success mt-3">Mas informacion</a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/home-3.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h5>Las trancas</h5>
+                    <p>Poblado Cordillerano y una Villa de Montaña de características originales donde sobresalen
+                        parajes únicos, construcciones arquitectónicas modernas, aire puro, ríos, senderos, sol en
+                        verano y nieve en invierno, una exuberante ﬂora y fauna nativa y un ambiente cálido y acogedor.
+                        Está ubicado a 70 kilómetros de Chillán, lo que permite a los turistas chilenos y extranjeros
+                        subir por el día a disfrutar de los atractivos de Nevados de Chillán.</p>
+                    <a href="#" class="btn btn-success mt-3">Mas informacion</a>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+            <span class="carousel-control-prev icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+            <span class="carousel-control-next icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Nuestros servicios</h2>
+                        <p>Cabañas, hoteles, hostales y casas en Termas de Chillán. Complejo turístico ubicado en la
+                            comuna de Pinto, en la Región de Ñuble, Chile, cual es administrado por la Municipalidad de
+                            Chillán, ciudad ubicada a 82 km al poniente. Está ubicada en las faldas del complejo
+                            volcánico Nevados de Chillán, en el sector de Valle Hermoso​.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <i class="bi bi-laptop"></i>
+                            <h3 class="card-title">Reservas</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                                corporis
+                                voluptate, placeat ipsum animi tempora accusantium facilis esse delectus cumque
+                                perferendis
+                                nobis possimus. Ea, laudantium! Voluptate praesentium odio exercitationem repellendus.
+                            </p>
+                            <button class="btn bg-success text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <i class="bi bi-wifi"></i>
+                            <h3 class="card-title">Internet 5G</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                                corporis
+                                voluptate, placeat ipsum animi tempora accusantium facilis esse delectus cumque
+                                perferendis
+                                nobis possimus. Ea, laudantium! Voluptate praesentium odio exercitationem repellendus.
+                            </p>
+                            <button class="btn bg-success text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <i class="bi bi-tv"></i>
+                            <h3 class="card-title">Televisión 4K</h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                                corporis
+                                voluptate, placeat ipsum animi tempora accusantium facilis esse delectus cumque
+                                perferendis
+                                nobis possimus. Ea, laudantium! Voluptate praesentium odio exercitationem repellendus.
+                            </p>
+                            <button class="btn bg-success text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="portafolio section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Sectores</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, voluptatem error ipsam
+                            blanditiis laborum aperiam asperiores praesentium ab repellendus illum reiciendis
+                            reprehenderit. Deleniti inventore cumque aspernatur odit in id repellendus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/project-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Sector Las Termas</h3>
+                            <p class="lead">Es un complejo turístico ubicado en la comuna de Pinto, en la Región de
+                                Ñuble, Chile, cual es
+                                administrado por la Municipalidad de Chillán, ciudad ubicada a 82 km al poniente. Está
+                                ubicada
+                                en las faldas del complejo volcánico Nevados de Chillán, en el sector de Valle Hermoso
+                            </p>
+                            <button class="btn bg-success text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/project-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Sector Las Turbinas</h3>
+                            <p class="lead">Cascada las turbinas, se encuentra a solo 25 minutos del puente de concreto
+                                (Renegado), desde el
+                                puente se inicia la caminata donde se emprende con un hermoso sendero para encontrar el
+                                río y
+                                por ende el salto las turbinas.</p>
+                            <button class="btn bg-success text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="img/project-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Sector Las Trancas</h3>
+                            <p class="lead">Poblado Cordillerano y una Villa de Montaña de características originales
+                                donde sobresalen
+                                parajes únicos, construcciones arquitectónicas modernas, aire puro, ríos, senderos, sol
+                                en
+                                verano y nieve en invierno, una exuberante ﬂora y fauna nativa y un ambiente cálido y
+                                acogedor.</p>
+                            <button class="btn bg-success text-white">Mas informacion</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Asesores</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque officiis, id ipsam
+                            neque obcaecati sapiente perspiciatis earum at dolore corrupti itaque molestiae, officia
+                            deleniti iusto distinctio ab quidem error!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/team-1.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Carolina Javiera</h3>
+                            <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nihil,
+                                quibusdam tempore et expedita ullam temporibus enim non sapiente labore accusamus
+                                eveniet. Ipsam sapiente quas, ut ullam maxime veritatis et?</p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"></i>
+                                <i class="bi bi-facebook text-white mx-1"></i>
+                                <i class="bi bi-linkedin text-white mx-1"></i>
+                                <i class="bi bi-instagram text-white mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/team-2.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Valentina Andrea</h3>
+                            <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nihil,
+                                quibusdam tempore et expedita ullam temporibus enim non sapiente labore accusamus
+                                eveniet. Ipsam sapiente quas, ut ullam maxime veritatis et?</p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"></i>
+                                <i class="bi bi-facebook text-white mx-1"></i>
+                                <i class="bi bi-linkedin text-white mx-1"></i>
+                                <i class="bi bi-instagram text-white mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/team-3.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Francisca Belén</h3>
+                            <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nihil,
+                                quibusdam tempore et expedita ullam temporibus enim non sapiente labore accusamus
+                                eveniet. Ipsam sapiente quas, ut ullam maxime veritatis et?</p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"></i>
+                                <i class="bi bi-facebook text-white mx-1"></i>
+                                <i class="bi bi-linkedin text-white mx-1"></i>
+                                <i class="bi bi-instagram text-white mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="img/team-4.jpg" class="img-fluid rounded-circle" alt="">
+                            <h3 class="card-title py-2">Diego Ignacio</h3>
+                            <p class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nihil,
+                                quibusdam tempore et expedita ullam temporibus enim non sapiente labore accusamus
+                                eveniet. Ipsam sapiente quas, ut ullam maxime veritatis et?</p>
+                            <p class="socials">
+                                <i class="bi bi-twitter text-white mx-1"></i>
+                                <i class="bi bi-facebook text-white mx-1"></i>
+                                <i class="bi bi-linkedin text-white mx-1"></i>
+                                <i class="bi bi-instagram text-white mx-1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section-padding">
+
+        <div class="container mt-5 mb-5">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Contacto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut accusantium obcaecati
+                            asperiores officiis soluta <br> commodi saepe quasi modi vero dolores vel nisi sed quis
+                            autem provident pariatur, quas ex? Aut?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row m-0">
+                <div class="col-md-12 p-0 pt-4 pb-4">
+                    <form action="#" class="bg-dark p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Correo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-success btn-lg btn-block mt-3">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">Servicios turisticos - Miguel Quintana Valenzuela - Universidad de Bío Bío</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
