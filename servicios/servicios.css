@@ -3,7 +3,7 @@
 }
 
 body{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home-3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/home-2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -66,6 +66,13 @@ body{
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
     color: #000;
